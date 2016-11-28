@@ -116,6 +116,14 @@
 					padding-bottom: 0;
 				}
 			}
+
+			@include breakpoint(xmall) {
+				li {
+					a {
+						width: 15em;
+					}
+				}
+			}
 		}
 	}
 

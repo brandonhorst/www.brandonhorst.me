@@ -454,6 +454,9 @@ ul {
         width: 20em; }
       ul.actions li:last-child {
         padding-bottom: 0; }
+    @media screen {
+      ul.actions li a {
+        width: 15em; } }
 
 dl {
   margin: 0 0 1.5em 0; }
