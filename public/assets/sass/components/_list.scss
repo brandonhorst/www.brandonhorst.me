@@ -109,7 +109,7 @@
 				vertical-align: middle;
 
 				a {
-					width: 20em;
+					width: 23em;
 				}
 
 				&:last-child {
@@ -117,10 +117,10 @@
 				}
 			}
 
-			@include breakpoint(xmall) {
+			@include breakpoint(xsmall) {
 				li {
 					a {
-						width: 15em;
+						width: 17em;
 					}
 				}
 			}

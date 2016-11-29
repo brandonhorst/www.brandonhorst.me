@@ -451,12 +451,12 @@ ul {
       padding-bottom: 0.75em;
       vertical-align: middle; }
       ul.actions li a {
-        width: 20em; }
+        width: 23em; }
       ul.actions li:last-child {
         padding-bottom: 0; }
-    @media screen {
+    @media screen and (max-width: 480px) {
       ul.actions li a {
-        width: 15em; } }
+        width: 17em; } }
 
 dl {
   margin: 0 0 1.5em 0; }
