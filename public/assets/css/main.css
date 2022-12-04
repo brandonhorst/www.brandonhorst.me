@@ -1,6 +1,4 @@
 @charset "UTF-8";
-@import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300");
 
 /* Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -65,7 +63,7 @@ body {
 /* Type */
 body, input, select, textarea {
   color: #414f57;
-  font-family: Merriweather, serif;
+  font-family: -apple-system-ui-serif, ui-serif, serif;
   font-size: 14pt;
   font-weight: 300;
   line-height: 2;}
@@ -136,7 +134,6 @@ hr {
   .icon:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
@@ -181,7 +178,6 @@ ul {
         ul.icons li a:before {
           -moz-osx-font-smoothing: grayscale;
           -webkit-font-smoothing: antialiased;
-          font-family: FontAwesome;
           font-style: normal;
           font-weight: normal;
           text-transform: none !important; }
@@ -210,8 +206,6 @@ ul {
   min-width: 27em;
   padding: 3em 3em 3em 3em ;
   background:#f5f8fb ;
-  /* border-radius: 4px; */
-  /* border: 1px solid #c8cccf; */
   cursor: default;
   opacity: 0.95;
   text-align: center;}
@@ -254,17 +248,8 @@ ul {
 
 /* Wrapper */
 #wrapper {
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
   display: flex;
-  -moz-align-items: center;
-  -webkit-align-items: center;
-  -ms-align-items: center;
   align-items: center;
-  -moz-flex-direction: column;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
   position: relative;
   min-height: 100%;
