@@ -24,3 +24,5 @@ lib-es
 lib-browser
 lib
 _book
+
+.DS_Store
